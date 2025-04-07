@@ -46,7 +46,6 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 20),
             Text(person.fetchData()),
             const SizedBox(height: 20),
-           
           ],
         ),
       ),
