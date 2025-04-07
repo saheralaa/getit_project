@@ -12,7 +12,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-
   @override
   Widget build(BuildContext context) {
     final login = getIt<ApiService>();
@@ -38,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
               },
               child: Text('Log out'),
             ),
-            SizedBox(height: 30),
+            const SizedBox(height: 30),
             Text(text),
             const SizedBox(height: 20),
             Text(user.fetchData()),
